@@ -101,7 +101,7 @@ def move(x, y):
 def updateScore():
     global score
     score += 1
-    label.config(text="Score:{}".format(score))
+    label.config(text="Score: {}".format(score))
 
 def changeDirection(newDirection):
     global direction
